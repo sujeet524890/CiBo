@@ -22,7 +22,7 @@ const Main = () => {
   async function main() {
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
-      contents: "Give  food recipi in step by step in short way " + data + "in" + language + "use emogies ,dont give  any answare not related to food and massge to end of inforamation thanku Sk",
+      contents: "Give  food recipi in step by step in short way " + data + "in" + language + "use emogies ,dont give  any answare not related to food and massge to end of inforamation thanku 👉Sujeet👇",
     });
     // console.log(response.text);
     setResponcedata(response.text);
